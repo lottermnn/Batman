@@ -24,7 +24,7 @@ span {
     top: 210px;
   }
   .bat-body {
-    background: black;
+    background: rgb(255, 0, 0);
     width: 52px;
     left: 350px;
     height: 244px;
@@ -55,7 +55,7 @@ span {
     transform: skewX(-15deg);
   }
   .bat-body > div:nth-child(3) {
-    background: black;
+    background: rgb(252, 0, 0);
     width: 50px;
     height: 16px;
     position: relative;
@@ -90,7 +90,7 @@ span {
   
   .left-wing,
   .right-wing {
-    background: black;
+    background: rgb(255, 0, 0);
     width: 350px;
     height: 182px;
     position: absolute;
@@ -125,12 +125,12 @@ span {
     transform-origin: left top;
   }
   .left-smoother {
-    background: -moz-linear-gradient(-45deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 49%, transparent 51%, transparent 100%);
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(0, 0, 0, 1)), color-stop(49%,rgba(0, 0, 0, 1)), color-stop(51%,transparent), color-stop(100%,transparent));
-    background: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 1) 0%,rgba(0, 0, 0, 1) 49%,transparent 51%,transparent 100%);
-    background: -o-linear-gradient(-45deg, rgba(0, 0, 0, 1) 0%,rgba(0, 0, 0, 1) 49%,transparent 51%,transparent 100%);
-    background: -ms-linear-gradient(-45deg, rgba(0, 0, 0, 1) 0%,rgba(0, 0, 0, 1) 49%,transparent 51%,transparent 100%);
-    background: linear-gradient(135deg, rgba(0, 0, 0, 1) 0%,rgba(0, 0, 0, 1) 49%,transparent 51%,transparent 100%);
+    background: -moz-linear-gradient(-45deg, rgb(255, 0, 0) 0%, rgb(255, 0, 0) 49%, transparent 51%, transparent 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgb(255, 0, 0)), color-stop(49%,rgb(252, 0, 0)), color-stop(51%,transparent), color-stop(100%,transparent));
+    background: -webkit-linear-gradient(-45deg, rgb(255, 0, 0) 0%,rgb(255, 0, 0) 49%,transparent 51%,transparent 100%);
+    background: -o-linear-gradient(-45deg, rgb(255, 0, 0) 0%,rgb(255, 0, 0) 49%,transparent 51%,transparent 100%);
+    background: -ms-linear-gradient(-45deg, rgb(255, 0, 0) 0%,rgb(255, 0, 0) 49%,transparent 51%,transparent 100%);
+    background: linear-gradient(135deg, rgb(255, 0, 0) 0%,rgb(255, 0, 0) 49%,transparent 51%,transparent 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 );
     width: 60px;
     height: 60px;
@@ -140,7 +140,7 @@ span {
     transform: rotate(-136deg);
   }
   .left-wing-connector {
-    background: black;
+    background: rgb(255, 0, 0);
     width: 118px;
     height: 147px;
     position: absolute;
@@ -150,7 +150,7 @@ span {
     overflow: hidden;
   }
   .left-wing-connector > div:nth-child(1) {
-    background: black;
+    background: rgb(255, 0, 0);
     width: 35px;
     height: 20px;
     position: relative;
@@ -228,12 +228,12 @@ span {
     100%{top: 0;transform-origin:center center;}
   } 
   .right-smoother {
-    background: -moz-linear-gradient(45deg, transparent 0%, transparent 51%, rgba(0, 0, 0, 1) 54%, rgba(0, 0, 0, 1) 100%);
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,transparent), color-stop(51%,transparent), color-stop(54%,rgba(0, 0, 0, 1)), color-stop(100%,rgba(0, 0, 0, 1)));
-    background: -webkit-linear-gradient(45deg, transparent 0%,transparent 51%,rgba(0, 0, 0, 1) 54%,rgba(0, 0, 0, 1) 100%);
-    background: -o-linear-gradient(45deg, transparent 0%,transparent 51%,rgba(0, 0, 0, 1) 54%,rgba(0, 0, 0, 1) 100%);
-    background: -ms-linear-gradient(45deg, transparent 0%,transparent 51%,rgba(0, 0, 0, 1) 54%,rgba(0, 0, 0, 1) 100%);
-    background: linear-gradient(45deg, transparent 0%,transparent 51%,rgba(0, 0, 0, 1) 54%,rgba(0, 0, 0, 1) 100%);
+    background: -moz-linear-gradient(45deg, transparent 0%, transparent 51%, rgb(255, 0, 0) 54%, rgb(255, 0, 0) 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,transparent), color-stop(51%,transparent), color-stop(54%,rgb(255, 0, 0)), color-stop(100%,rgb(255, 0, 0)));
+    background: -webkit-linear-gradient(45deg, transparent 0%,transparent 51%,rgb(255, 0, 0) 54%,rgb(255, 0, 0) 100%);
+    background: -o-linear-gradient(45deg, transparent 0%,transparent 51%,rgb(255, 0, 0) 54%,rgb(255, 0, 0) 100%);
+    background: -ms-linear-gradient(45deg, transparent 0%,transparent 51%,rgb(255, 0, 0) 54%,rgb(250, 0, 0) 100%);
+    background: linear-gradient(45deg, transparent 0%,transparent 51%,rgb(255, 0, 0) 54%,rgb(255, 0, 0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=1 );
     width: 60px;
     height: 60px;
@@ -243,7 +243,7 @@ span {
     transform: rotate(-215deg);   
   } 
   .right-wing-connector {
-    background: black;
+    background: rgb(255, 0, 0);
     width: 118px;
     height: 147px;
     position: absolute;
@@ -252,7 +252,7 @@ span {
     padding-top: 11px;
   }
   .right-wing-connector > div:nth-child(1) {
-    background: black;
+    background: rgb(255, 0, 0);
     width: 35px;
     height: 20px;
     position: relative;
